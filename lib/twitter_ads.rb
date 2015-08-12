@@ -36,7 +36,7 @@ require 'multi_json'
 
 module TwitterAds
 
-  ADS_API_ENDPOINT = 'ads-api.twitter.com'
+  ADS_API_ENDPOINT = 'ads-api-sandbox.twitter.com'
   TRACE = true
   UnauthorizedAccess = 'UNAUTHORIZED_ACCESS'
   class AdsError < StandardError
